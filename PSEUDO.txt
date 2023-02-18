@@ -1,6 +1,6 @@
 //display entire day (9am - 5pm) on page load - DONE
 
-//display current day at the top of the calendar
+//display current day at the top of the calendar - DONE
 
 //color code time blocks based on time of day (past - gray, present - red, future - green)
 
