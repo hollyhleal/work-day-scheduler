@@ -1,0 +1,24 @@
+//display entire day (9am - 5pm) on page load - DONE
+
+//display current day at the top of the calendar
+
+//color code time blocks based on time of day (past - gray, present - red, future - green)
+
+//click time block, enter an event
+
+//click save for that time block, text for the event is saved in local storage
+
+//refresh page, saved event persists
+
+
+
+//linked in HTML head:
+//bootstrap
+//fontawesome css
+//google fonts
+//custom css file
+
+//linked in HTML footer:
+//jquery
+//dayjs
+//custom js file
