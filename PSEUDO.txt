@@ -2,9 +2,7 @@
 
 //display current day at the top of the calendar - DONE
 
-//color code time blocks based on time of day (past - gray, present - red, future - green); assign/remove classes based on time of day
-
-//do we need to add a function for the current hour or is a variable sufficient? And, do we need to add a set interval for the time? 
+//color code time blocks based on time of day (past - gray, present - red, future - green); assign/remove classes based on time of day - DONE
 
 //click time block, enter an event
 
@@ -26,3 +24,6 @@
 //jquery
 //dayjs
 //custom js file
+
+//QUESTIONS
+//do we need to add a function for the current hour or is a variable sufficient? And, do we need to add a set interval for the time? 
