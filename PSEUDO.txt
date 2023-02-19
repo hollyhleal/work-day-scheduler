@@ -8,7 +8,7 @@
 
 //click save for that time block, text for the event is saved in local storage
 
-//message appears at top of page "Appointment added to localStorage"
+//message appears at top of page "Appointment added to localStorage" - extra
 
 //refresh page, saved event persists
 
@@ -26,4 +26,7 @@
 //custom js file
 
 //QUESTIONS
-//do we need to add a function for the current hour or is a variable sufficient? And, do we need to add a set interval for the time? 
+//do we need to add a function for the current hour or is a variable sufficient? And, do we need to add a set interval for the time? not necessary
+
+
+//setting and getting with local storage
