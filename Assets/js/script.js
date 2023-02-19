@@ -1,20 +1,15 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+// Wrap all code that interacts with the DOM in a call to jQuery to ensure that the code isn't run until the browser has finished rendering all the elements in the html.
 $(document).ready(function () {
   //using day.js, display current day at top of page
   var today = dayjs();
   var currentDay = $("#currentDay");
   $(currentDay).text(today.format("dddd, MMMM D"));
 
-  // TODO: Add code to apply the past, present, or future class to each time
-  // block by comparing the id to the current hour. HINTS: How can the id
-  // attribute of each time-block be used to conditionally add or remove the
-  // past, present, and future classes? How can Day.js be used to get the
-  // current hour in 24-hour time?
+  //using day.js, log current hour (in 24-hour time) in global variable
   var currentTime = dayjs().hour();
   // console.log(currentTime);
 
+  //function to loop through each instance of class time-block. Use parsInt to convert each id into an integer value. Compare this variable with the currentTime from day.js, add and remove classes based on result.
   $(".time-block").each(function () {
     var hourBlock = parseInt($(this).attr("id"));
 
