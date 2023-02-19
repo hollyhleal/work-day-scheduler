@@ -9,6 +9,10 @@ $(document).ready(function () {
   var currentTime = dayjs().hour();
   // console.log(currentTime);
 
+  //global variable for save button
+  var saveButton = $(".saveBtn");
+  // console.log(saveButton);
+
   //function to loop through each instance of class time-block. Use parsInt to convert each id into an integer value. Compare this variable with the currentTime from day.js, add and remove classes based on result.
   $(".time-block").each(function () {
     var hourBlock = parseInt($(this).attr("id"));
@@ -28,6 +32,9 @@ $(document).ready(function () {
     }
   });
 
+  saveButton.on("click", function () {
+    localStorage.setItem("#9", ".description");
+  });
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
@@ -39,6 +46,4 @@ $(document).ready(function () {
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
-  //
-  // TODO: Add code to display the current date in the header of the page.
 });
