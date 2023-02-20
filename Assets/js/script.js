@@ -39,6 +39,7 @@ $(document).ready(function () {
     var hourInDay = $(this).parent().attr("id");
     var eventEntry = $(this).siblings(".description").val();
     localStorage.setItem(hourInDay, eventEntry);
+    alert("Appointment successfully added to localStorage.");
   });
 
   //localStorage.getItem to retrieve events that have been saved to specific hour blocks

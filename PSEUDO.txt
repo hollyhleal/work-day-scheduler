@@ -12,6 +12,7 @@
 
 //refresh page, saved event persists
 
+//setting and getting with local storage
 
 
 //linked in HTML head:
@@ -25,8 +26,5 @@
 //dayjs
 //custom js file
 
-//QUESTIONS
-//do we need to add a function for the current hour or is a variable sufficient? And, do we need to add a set interval for the time? not necessary
 
 
-//setting and getting with local storage
